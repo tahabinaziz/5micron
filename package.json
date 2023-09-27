@@ -1,0 +1,32 @@
+{
+  "name": "5micron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tahabinaziz/5micron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tahabinaziz/5micron/issues"
+  },
+  "homepage": "https://github.com/tahabinaziz/5micron#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "npx": "^10.2.2",
+    "pg": "^8.11.3",
+    "postgres": "^3.3.5"
+  },
+  "devDependencies": {
+    "sequelize": "^6.33.0",
+    "sequelize-cli": "^6.6.1"
+  }
+}

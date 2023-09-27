@@ -1,19 +1,24 @@
-# Npm & Node Version
+## Tech Stack
+`Node.js, Express.js, Sequelize ORM, Postgres`
+
+## Npm & Node Version
 ### node -v: 18.7.0 || npm -v: 8.15.0
 
-# Configure File
-### config -> config.json -> change username, password, databasename
 
-# Start Server:
-### npm start
+## Step 1: Configure File
+You can configure the credentials in: `config folder -> config.json -> change username, password, databasename`
 
+## Step 2: Sequelize commands
+Run the commands sequentially.
 
-# Sequelize commands
-## For creation of Database
+### For creation of Database
 `npx sequelize-cli db:create`
 
-## Creation of Table
+### Creation of Database Table
 `npx sequelize-cli model:generate --name Sensors  --attributes serial:string,swVersion:string,temperature:string,date:string,gps:string`
 
-## Migrations
+### Migrations
 `npx sequelize-cli db:migrate`
+
+## Step 3: Start Server
+Use this command to start the server:`npm start`

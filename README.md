@@ -6,9 +6,12 @@
 
 
 ## Step 1: Configure File
-You can configure the credentials in: `config folder -> config.json -> change username, password, databasename`
+You can configure the credentials w.r.t your machine environment: `config folder -> config.json -> change username, password, databasename`
 
-## Step 2: Sequelize commands
+## Step 2: Install Packages
+`npm install`
+
+## Step 3: Sequelize commands
 Run the commands sequentially.
 
 ### For creation of Database
@@ -20,5 +23,5 @@ Run the commands sequentially.
 ### Migrations
 `npx sequelize-cli db:migrate`
 
-## Step 3: Start Server
+## Step 4: Start Server
 Use this command to start the server:`npm start`
